@@ -1,9 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class AddPlace extends Component {
-  render() {
-    return <div />;
-  }
-}
+const R = () => <span>lala</span>;
 
-export default AddPlace;
+export default R;

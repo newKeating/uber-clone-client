@@ -1,9 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class Settings extends Component {
-  render() {
-    return <div />;
-  }
-}
+const R = () => <span>lala</span>;
 
-export default Settings;
+export default R;

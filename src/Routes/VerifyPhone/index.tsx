@@ -1,9 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class VerifyPhone extends Component {
-  render() {
-    return <div />;
-  }
-}
+const R = () => <span>lala</span>;
 
-export default VerifyPhone;
+export default R;

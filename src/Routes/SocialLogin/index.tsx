@@ -1,9 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class SocialLogin extends Component {
-  render() {
-    return <div />;
-  }
-}
+const R = () => <span>lala</span>;
 
-export default SocialLogin;
+export default R;
