@@ -2317,9 +2317,13 @@
               }
             ],
             "type": {
-              "kind": "OBJECT",
-              "name": "FacebookConnectResponse",
-              "ofType": null
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "OBJECT",
+                "name": "FacebookConnectResponse",
+                "ofType": null
+              }
             },
             "isDeprecated": false,
             "deprecationReason": null
