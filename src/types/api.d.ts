@@ -36,7 +36,7 @@ export interface verifyPhone_CompletePhoneVerification {
 }
 
 export interface verifyPhone {
-  CompletePhoneVerification: verifyPhone_CompletePhoneVerification | null;
+  CompletePhoneVerification: verifyPhone_CompletePhoneVerification;
 }
 
 export interface verifyPhoneVariables {
