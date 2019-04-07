@@ -4,7 +4,7 @@ import { graphql } from "react-apollo";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import AppPresenter from "./AppPresenter";
-import { IS_LOGGED_IN } from "./AppQueries";
+import { IS_LOGGED_IN } from "./AppQueries.local";
 import { ThemeProvider } from "../../typed-components";
 
 const AppContainer = ({ data }) => (
