@@ -5,7 +5,16 @@
   "dependencies": {
     "@types/react-router-dom": "^4.3.1",
     "apollo-boost": "^0.1.12",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-error": "^1.1.10",
+    "apollo-link-http": "^1.5.14",
+    "apollo-link-state": "^0.4.2",
+    "apollo-link-ws": "^1.0.17",
+    "apollo-utilities": "^1.2.1",
     "axios": "^0.18.0",
+    "google-maps-react": "^2.0.2",
     "graphql": "^0.13.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
@@ -18,7 +27,8 @@
     "react-sidebar": "^3.0.2",
     "react-toastify": "^5.0.0-rc.6",
     "styled-components": "^4.2.0",
-    "styled-reset": "^2.0.5"
+    "styled-reset": "^2.0.5",
+    "subscriptions-transport-ws": "^0.9.16"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -29,12 +39,14 @@
     "codegen": "apollo codegen:generate src/types/api.d.ts --queries='src/**/!(*.local).ts' --addTypename --localSchemaFile=schema.json --target typescript --outputFlat"
   },
   "devDependencies": {
+    "@types/googlemaps": "^3.30.19",
     "@types/jest": "^23.3.1",
     "@types/node": "^10.5.7",
     "@types/react": "^16.4.8",
     "@types/react-dom": "^16.0.7",
     "@types/react-sidebar": "^3.0.0",
     "@types/styled-components": "^4.1.12",
+    "gh-pages": "^2.0.1",
     "typescript": "^3.0.1"
   }
 }
